@@ -15,9 +15,9 @@ Este projeto consome a [API do Kitsu](https://kitsu.docs.apiary.io/#) para busca
 ## Tecnologias Utilizadas
 
 - **Java 20**: Linguagem principal do projeto.
-- **HttpClient**: Biblioteca nativa do Java (Java 11+) para realizar requisições HTTP.
+- **HttpClient**: Biblioteca nativa do Java para realizar requisições HTTP.
 - **Gson**: Biblioteca para converter JSON em objetos Java e vice-versa.
-- **Kitsu API**: Fonte dos dados de animes.,
+- **Kitsu API**: Fonte dos dados de animes.
 
 Exemplos de Uso
 Saída Esperada
