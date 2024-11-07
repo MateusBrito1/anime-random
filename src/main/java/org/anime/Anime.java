@@ -9,7 +9,7 @@ public class Anime {
         return id;
     }
 
-    public Attributes getAttributes() { //  é usado apenas get para acessar a api.
+    public Attributes getAttributes() { //
         return attributes;
     }
 
@@ -17,6 +17,7 @@ public class Anime {
         private String synopsis;
         private String canonicalTitle;
         private String createdAt;
+        private String youtubeVideoId;
 
         public String getSynopsis() {
             return synopsis;
@@ -30,7 +31,9 @@ public class Anime {
             return createdAt;
         }
 
-
+        public String getYoutubeVideoId() {
+            return youtubeVideoId;
+        }
     }
 
     @Override
@@ -40,6 +43,7 @@ public class Anime {
                 ", title='" + attributes.getCanonicalTitle() + '\'' +
                 ", synopsis='" + attributes.getSynopsis() + '\'' +
                 ", createdAt='" + attributes.getCreatedAt() + '\'' +
+                ", youtubeVideoId='" + attributes.getYoutubeVideoId() + '\'' +
                 '}';
 }
 
