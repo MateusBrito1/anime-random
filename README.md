@@ -1,6 +1,6 @@
 # Anime Randomizer 🎲
 
-Este é um projeto Java para buscar animes aleatórios da API do Kitsu. A aplicação faz uma requisição HTTP para obter uma lista de animes e seleciona um anime aleatório entre eles. Este projeto é ideal para praticar o consumo de APIs REST, manipulação de JSON e lógica de randomização em Java..
+Este é um projeto Java para buscar animes aleatórios da API do Kitsu. A aplicação faz uma requisição HTTP para obter uma lista de animes e seleciona um anime aleatório entre eles. Este projeto é ideal para praticar o consumo de APIs REST, manipulação de JSON e lógica de randomização em Java.
 
 ## Índice 
 
